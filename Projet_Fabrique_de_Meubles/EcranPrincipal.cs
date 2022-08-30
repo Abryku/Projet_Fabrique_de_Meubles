@@ -23,7 +23,6 @@ namespace Projet_Fabrique_de_Meubles
         private static string sConnexion;
         private DataTable DT_CLIENT, DT_COMMANDE, DT_DETAIL_COMMANDE, DT_MEUBLE, DT_STOCK;
         private BindingSource BS_CLIENT, BS_COMMANDE, BS_DETAIL_COMMANDE, BS_MEUBLE, BS_STOCK;
-
         private void AddProduct_Click(object sender, EventArgs e)
         {
             Ajout.AjoutProduit AddProduct = new Ajout.AjoutProduit();
